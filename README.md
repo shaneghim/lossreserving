@@ -14,25 +14,35 @@ I picked one company, New Jersey Manufacturers (NJM, GRCODE 7080), after checkin
 
 **Method**
 
-- <ins>Triangle</ins>
+<ins>
 
-  : reshaped the data into a paid loss triangle (accident year x age) with SUMIFS, then hid every cell after 2007 so the estimates only use what was known on 12/31/2007, the valuation date.
+Triangle
 
-- <ins>Development factors</ins>
+I reshaped the data into a paid loss triangle (accident year x age) with SUMIFS, then hid every cell after 2007 so the estimates only use what was known on 12/31/2007, the valuation date.
 
-  : calculated how much paid losses grew from one year to the next, then compared three averages: simple, volume-weighted, and volume-weighted average over the latest 3 years. I used the volume-weighted average and assumed everything is paid by year 10 (assuming a tail factor of 1.000). A switch cell enables the workbook to toggle between the all-years and latest-3 selections.
+<ins>
 
-- <ins>Chain ladder</ins>
+Development factors
 
-  : ultimate losses = latest paid x cumulative development factor (CDF). This assumes each accident year will develop like past years did.
+I calculated how much paid losses grew from one year to the next, then compared three averages: simple, volume-weighted, and volume-weighted average over the latest 3 years. I used the volume-weighted average and assumed everything is paid by year 10 (assuming a tail factor of 1.000). A switch cell enables the workbook to toggle between the all-years and latest-3 selections.
 
-- <ins>BF</ins>
+<ins>
 
-  : ultimate losses = latest paid + premium x expected loss ratio x (1 - 1/CDF). BF used actual payments for the portion already paid, and an expected loss ratio (ELR) for the unpaid portion. I set the ELR to 69.3%, the average chain ladder loss ratio for 1998 to 2002, since those years were almost fully paid and their estimates were the most reliable.
+Chain ladder
 
-- <ins>Backtest</ins>
+Is the ultimate losses = latest paid x cumulative development factor (CDF). This assumes each accident year will develop like past years did.
 
-  : compared both methods to the actual ultimate losses, then tested how the results change with the latest-3 factors and setting the ELR to + or - 5 points.
+<ins>
+
+BF
+
+Is the ultimate losses = latest paid + premium x expected loss ratio x (1 - 1/CDF). BF used actual payments for the portion already paid, and an expected loss ratio (ELR) for the unpaid portion. I set the ELR to 69.3%, the average chain ladder loss ratio for 1998 to 2002, since those years were almost fully paid and their estimates were the most reliable.
+
+<ins>
+
+Backtest
+
+I compared both methods to the actual ultimate losses, then tested how the results change with the latest-3 factors and setting the ELR to + or - 5 points.
 
 **Results**
 
