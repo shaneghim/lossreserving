@@ -76,3 +76,7 @@ Both methods underestimated 2003 and 2004 by around 3% since those years develop
 **Limitations**
 
 This uses paid losses only (not incurred), assumes all claims are paid by year 10, doesn't give a range around the estimates, and looks at one company and one backtest.
+
+**What's next**
+
+We should repeat the analysis, but this time with incurred losses, which adds case reserves, then compare the paid and incurred estimates. We can also rerun a backtest on other companies in the CAS file to see whether weighting the latest-3 years of factors generally helps, or whether it was only specific to NJM.
