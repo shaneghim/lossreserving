@@ -45,7 +45,7 @@ I compared both methods to the actual ultimate losses, then tested how the resul
 
 <ins>Error by accident year</ins>
 
-| Accident year | \% paid | Chain ladder error | BF error |
+| Accident year | % paid | Chain ladder error | BF error |
 |---------------|--------:|-------------------:|---------:|
 | 1998          |  100.0% |               0.0% |     0.0% |
 | 1999          |   99.2% |              +0.3% |    +0.4% |
