@@ -88,7 +88,7 @@ Both methods underestimated 2003 and 2004 by around 3%, since those years develo
 
 1.  Open the workbook. The data is already in the `Data` tab, or you can download it from the CAS link above.
 2.  To switch between the volume-weighted and latest-3 factors, change cell B25 on the Factors tab to VW or L3. The whole workbook will update accordingly.
-3.  To test a different ELR, change cell B2 on the Bornhuetter-Ferguson(BF) tab.
+3.  To test a different ELR, change cell B2 on the Bornhuetter-Ferguson (BF) tab.
 
 **Limitations**
 
