@@ -1,2 +1,7 @@
 title: "Loss Reserving in Excel: Chain Ladder vs. Bornhuetter-Ferguson"
 theme: jekyll-theme-primer
+defaults:
+  - scope:
+      path: ""
+    values:
+      title: "Loss Reserving in Excel: Chain Ladder vs. Bornhuetter-Ferguson"
