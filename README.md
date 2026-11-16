@@ -1,3 +1,5 @@
+<a href="https://shaneghim.github.io/" style="display:inline-block;padding:4px 12px;border:1px solid #d6dbe1;border-radius:999px;font-family:Helvetica,Arial,sans-serif;font-size:0.85rem;color:#1f4e79;text-decoration:none;background:#fff;">&larr; All projects</a>
+
 # Loss Reserving in Excel: Chain Ladder vs. Bornhuetter-Ferguson
 
 This Excel project estimates how much an auto insurer still owed on its claims at the end of 2007. I used two standard reserving methods, chain ladder and Bornhuetter-Ferguson (BF). Since the data also includes what was actually paid after 2007, I backtested both methods against those actual payments.
