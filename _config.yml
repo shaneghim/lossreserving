@@ -1,7 +1,2 @@
-title: "Loss Reserving in Excel: Chain Ladder vs. Bornhuetter-Ferguson"
-theme: jekyll-theme-primer
-defaults:
-  - scope:
-      path: ""
-    values:
-      title: "Loss Reserving in Excel: Chain Ladder vs. Bornhuetter-Ferguson"
+title: Auto Insurance Loss Trend Monitor
+description: Are auto insurance premiums keeping up with claim costs?
