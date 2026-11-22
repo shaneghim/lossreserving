@@ -1,2 +1,7 @@
-title: Auto Insurance Loss Trend Monitor
-description: Are auto insurance premiums keeping up with claim costs?
+title: "Loss Reserving: Chain Ladder vs. Bornhuetter-Ferguson"
+theme: jekyll-theme-primer
+defaults:
+  - scope:
+      path: ""
+    values:
+      title: "Loss Reserving: Chain Ladder vs. Bornhuetter-Ferguson"
